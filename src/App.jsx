@@ -4,7 +4,7 @@ import Card from './Components/Card';
 import AddCardSeries from './Components/AddCardSeries';
 
 function App() {
-  const [count, setCount] = useState(0);
+
   const [newSerie, setNewSerie] = useState({
     title: '',
     imgUrl: '',
